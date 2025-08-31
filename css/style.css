@@ -144,3 +144,25 @@ footer {
   }
 }
 
+/* ========== About Section ========== */
+.about {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: var(--secondary);
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto 1rem auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--dark);
+}
+
+
