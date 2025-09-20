@@ -1,6 +1,46 @@
 :root {
-  --primary: #b85c38;   /* Hauptfarbe (warm, Friseur-Style) */
-  --secondary: #f4f4f4; /* Hintergrund hell */
-  --dark: #333;
-  --light: #fff;
+  /* Farben */
+  --primary: #b85c38;       /* Hauptfarbe */
+  --secondary: #f4f4f4;     /* Hintergrund hell */
+  --dark: #333;              /* Textfarbe dunkel */
+  --light: #fff;             /* Textfarbe hell / Background für Cards */
+  --accent: #ffe8d6;         /* Hover, Akzente */
+
+  /* Schatten */
+  --shadow-default: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-hover: 0 10px 18px rgba(0,0,0,0.15);
+
+  /* Textgrößen */
+  --text-xs: 0.75rem;       
+  --text-sm: 0.875rem;      
+  --text-base: 1rem;        
+  --text-lg: 1.25rem;       
+  --text-xl: 1.5rem;        
+  --text-xxl: 2rem;         
+
+  /* Abstände */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-base: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-base: 8px;
+  --radius-lg: 12px;
+
+  /* Header / Footer Höhe */
+  --height-header: 80px;
+  --height-footer: 60px;
+
+  /* Buttons */
+  --btn-padding-y: 0.75rem;
+  --btn-padding-x: 1.5rem;
+  --btn-radius: 5px;
+
+  /* Cards */
+  --card-padding: 1.5rem;
+  --card-radius: 8px;
+  --card-gap: 2rem;
 }
